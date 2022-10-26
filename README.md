@@ -11,4 +11,8 @@ Iranian news dataset was prepared that crawled 4965 news from the websites of ne
 
 In the dataset, every news is in a separate file and the content of each file as follows:
 ### File Content:
-The first line includes information related to the news. This information includes `the name of the news agency`, `title`, `link`, `category`, `publication date` , `ID code`, and `tag`, separated by '###'.
+The first line includes information related to the news. This information includes `the name of the news agency`, `title`, `link`, `category`, `publication date` , `ID code`, and `tag`, separated by `###`.
+
+The second line includes the ID number of sentences that make up the context of the summarized text. If the summarized text contains more than one sentence, the IDs of the sentences are separated by `@@@`.
+
+The third line to the end includes the sentences of the news text, each sentence is in a separate line. At the beginning of these lines, there is an ID number for the sentences.
